@@ -61,11 +61,11 @@ if (isset($_POST['delete_usuario'])){
     mysqli_query($conexao, $sql);
 
     if(mysqli_affected_rows($conexao) > 0){
-        $_SESSION['message'] = 'Usuario deletado com sucesso';
+        $_SESSION['mensagem'] = 'Usuario deletado com sucesso';
         header('location: index.php');
         exit;
     } else {
-        $_SESSION['message'] = 'Usuario não foi deletado';
+        $_SESSION['mensagem'] = 'Usuario não foi deletado';
         header('location: index.php');
         exit;
     }
