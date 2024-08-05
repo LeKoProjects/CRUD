@@ -12,7 +12,7 @@ include('conexao.php');
   </head>
   <body>
     <?php include('navbar.php'); ?>
-    <div class="conteiner mt-4">
+    <div class="container mt-4">
       <?php include('mensagem.php'); ?>
       <div class="row">
         <div class="col-md-12">
